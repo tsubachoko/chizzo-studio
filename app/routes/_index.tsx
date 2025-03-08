@@ -2,7 +2,7 @@ import type { MetaFunction } from '@remix-run/cloudflare'
 
 export const meta: MetaFunction = () => {
   return [
-    { title: 'ちっぞう' },
+    { title: 'ちっぞう Studio' },
     { name: 'description', content: 'ちっぞうの製作物一覧' },
   ]
 }
