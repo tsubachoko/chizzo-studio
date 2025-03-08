@@ -10,7 +10,7 @@ export const meta: MetaFunction = () => {
 const projects = [
   {
     title: '作成中...',
-    description: 'Description of project 1',
+    description: '',
     href: '#',
   },
 ]
