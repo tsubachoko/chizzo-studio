@@ -48,12 +48,6 @@ importers:
       '@remix-run/dev':
         specifier: ^2.15.3
         version: 2.16.6(@remix-run/react@2.16.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.8.3))(@types/node@22.15.18)(jiti@1.21.7)(typescript@5.8.3)(vite@6.3.5(@types/node@22.15.18)(jiti@1.21.7)(yaml@2.7.1))(wrangler@3.114.0(@cloudflare/workers-types@4.20250303.0))(yaml@2.7.1)
-      '@types/react':
-        specifier: ^18.2.20
-        version: 18.3.18
-      '@types/react-dom':
-        specifier: ^18.2.7
-        version: 18.3.5(@types/react@18.3.18)
       autoprefixer:
         specifier: ^10.4.19
         version: 10.4.21(postcss@8.5.3)
