@@ -21,11 +21,7 @@ export default function Index() {
       <div className="flex flex-col items-center gap-16">
         <header className="flex flex-col items-center gap-9">
           <div className="flex items-center gap-4">
-            <img
-              src="/logo.png"
-              alt="ちっぞうのロゴ"
-              className="h-20 w-20"
-            />
+            <img src="/logo.png" alt="ちっぞうのロゴ" className="h-20 w-20" />
             <h1 className="leading text-2xl font-bold text-gray-800 dark:text-gray-100">
               ちっぞう
             </h1>
