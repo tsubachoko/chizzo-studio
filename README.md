@@ -1,11 +1,27 @@
 # 概要
-製作物の一覧のページ
+chizzoの製作物の一覧のサイト
 
 ./apps/home/: https://chizzo.studio/
 ./apps/bibi/: https://bibi.chizzo.studio/
 
 
 # 開発
+
+## 📂 ディレクトリ構成
+
+概要
+
+```
+./
+├─ apps/            # 各アプリ
+│  ├─ bibi/
+│  └─ home/
+├─ biome.json
+├─ pnpm-lock.yaml
+├─ pnpm-workspace.yaml
+├─ package.json
+└─ tsconfig.json
+```
 
 ## 新規アプリの追加
 
