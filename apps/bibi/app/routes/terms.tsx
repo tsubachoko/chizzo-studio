@@ -8,7 +8,7 @@ export function meta() {
 
 export default function Terms() {
   return (
-    <div>
+    <div className="text-slate-800">
       <Markdown>{content}</Markdown>
     </div>
   )

@@ -37,7 +37,7 @@ const overrides: MarkdownToJSX.Overrides = {
       </a>
     ),
   },
-  hr: { component: () => <hr className="mt-4 mb-4" /> },
+  hr: { component: () => <hr className="mt-4 mb-4 opacity-40" /> },
   ul: {
     component: ({ children }) => (
       <div className="my-2">

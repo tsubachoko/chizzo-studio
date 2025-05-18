@@ -8,7 +8,7 @@ export function meta() {
 
 export default function Privacy() {
   return (
-    <div>
+    <div className="text-slate-800">
       <Markdown>{content}</Markdown>
     </div>
   )
