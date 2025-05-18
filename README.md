@@ -33,3 +33,18 @@ React Router v7を使用
 ```
 pnpm create cloudflare@latest {アプリ名} --framework=react-router
 ```
+
+## 共通パーツ
+
+### @common/components
+./packages/components/にて実装している、各アプリで使用できるコンポーネント。
+
+使用する際には各アプリで以下を設定する。
+（共通のコンポーネント分のtailwindのcssが反映されるように）
+
+```tailwind.config.ts
+  content: [
+    './**/*.{ts,tsx,js,jsx}',
+    './node_modules/@common/components/*.{ts,tsx,js,jsx}', // ここを追加
+  ],
+```
