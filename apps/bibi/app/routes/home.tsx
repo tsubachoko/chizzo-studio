@@ -1,17 +1,14 @@
-import { Welcome } from '../welcome/welcome'
-import type { Route } from './+types/home'
-
 export function meta() {
   return [
-    { title: 'New React Router App' },
-    { name: 'description', content: 'Welcome to React Router!' },
+    { title: '1+1 | スマホアプリ' },
+    {
+      name: 'description',
+      content:
+        'シンプルで無限の計算行うスマホアプリゲームの1+1のWebページです。',
+    },
   ]
 }
 
-export function loader({ context }: Route.LoaderArgs) {
-  return { message: context.cloudflare.env.VALUE_FROM_CLOUDFLARE }
-}
-
-export default function Home({ loaderData }: Route.ComponentProps) {
-  return <Welcome message={loaderData.message} />
+export default function Home() {
+  return <p>開発中...</p>
 }
