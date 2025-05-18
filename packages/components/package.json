@@ -1,0 +1,14 @@
+{
+  "name": "@common/components",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "devDependencies": {
+    "@types/react": "^19.1.2"
+  },
+  "dependencies": {
+    "markdown-to-jsx": "^7.7.6"
+  },
+  "peerDependencies": {
+    "react": "^19.1.0"
+  }
+}

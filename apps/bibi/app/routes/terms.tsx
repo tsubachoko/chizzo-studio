@@ -1,17 +1,15 @@
-import { Welcome } from '../welcome/welcome'
-import type { Route } from './+types/home'
+import { Markdown } from '@common/components'
+
+import content from './terms_content.md?raw'
 
 export function meta() {
-  return [
-    { title: 'New React Router App' },
-    { name: 'description', content: 'Welcome to React Router!' },
-  ]
+  return [{ title: '利用規約 | 1+1' }]
 }
 
-export function loader({ context }: Route.LoaderArgs) {
-  return { message: context.cloudflare.env.VALUE_FROM_CLOUDFLARE }
-}
-
-export default function Home({ loaderData }: Route.ComponentProps) {
-  return <Welcome message={loaderData.message} />
+export default function Terms() {
+  return (
+    <div>
+      <Markdown>{content}</Markdown>
+    </div>
+  )
 }
